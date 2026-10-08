@@ -1,5 +1,18 @@
+# Dependencies
 node_modules/
+
+# Environment variables / secrets
 .env
+.env.*
+!.env.example
+
+# Frontend build
 client/dist/
+
+# Backend uploads
 server/uploads/*
 !server/uploads/.gitkeep
+
+# Other build/output folders
+dist/
+build/
